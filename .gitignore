@@ -1,0 +1,13 @@
+##ignore in this reposition##
+
+# CatsLogs
+Fallback_Location
+Debug
+_Temp
+
+
+# Runtime data
+*.sln
+*.vs
+
+
