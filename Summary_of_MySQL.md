@@ -71,11 +71,11 @@ DELETE FROM tablename
 ```
 //CREATE TABLE用于创建新数据库表
 CREATE TABLE tablename
-{
+(
 columnname1 datatype [NULL|NOT NULL] [CONSTRAINTS],
 columnname2 datatype [NULL|NOT NULL] [CONSTRAINTS],
 ...
-};
+);
 
 //CREATE INDEX用于在一个或多个列上创建索引
 CREATE INDEX indexname
@@ -105,4 +105,24 @@ DROP永久地删除数据库对象(表，视图，索引等)
 DROP DATABASE|INDEX|PROCEDURE|TABLE|TRIGGER|USER|VIEW
 itemname;
 ```
+
+### ALTER
+
+ALTER TABLE用来更新已存在表的模式
+
+```
+ALTER TABLE tablename
+(
+ADD column datatype [NULL|NOT NULL] [CONSTRAINTS],
+CHANGE column datatype [NULL|NOT NULL] [CONSTRAINTS],
+DROP column,
+...
+);
+```
+
+### COMMIT
+
+COMMIT用来将事物处理写到数据库
+
+
 
