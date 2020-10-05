@@ -97,3 +97,12 @@ AS
 SELETE ...;
 ```
 
+### DROP
+
+DROP永久地删除数据库对象(表，视图，索引等)
+
+```
+DROP DATABASE|INDEX|PROCEDURE|TABLE|TRIGGER|USER|VIEW
+itemname;
+```
+
