@@ -128,5 +128,11 @@ COMMIT用来将事物处理写到数据库
 COMMIT;
 ```
 
+### ROLLBACK
 
+ROLLBACK用来撤销一个事务处理块
+
+```
+ROLLBACK [ TO savepointname];
+```
 
