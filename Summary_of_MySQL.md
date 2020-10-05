@@ -53,7 +53,8 @@ UPDATE更新表中一行或多行
 
 ```
 UPDATE tablename
-SET column=value,...
+SET column=value,
+...
 [WHERE ...];
 ```
 
@@ -142,5 +143,13 @@ SAVEPOINT为使用ROLLBACK语句设立保留点
 
 ```
 SAVEPOINT sp1;
+```
+
+### START TRANSACTION
+
+START TRANSACTION表示一个新的事务处理块的开始
+
+```
+START TRANSACTION;
 ```
 
