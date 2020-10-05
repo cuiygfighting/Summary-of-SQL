@@ -57,3 +57,12 @@ SET column=value,...
 [WHERE ...];
 ```
 
+### DELETE
+
+DELETE从表中删除一行或多行
+
+```
+DELETE FROM tablename
+[WHERE ...];
+```
+
