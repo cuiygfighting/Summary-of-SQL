@@ -136,3 +136,11 @@ ROLLBACK用来撤销一个事务处理块
 ROLLBACK [ TO savepointname];
 ```
 
+### SAVEPOINT
+
+SAVEPOINT为使用ROLLBACK语句设立保留点
+
+```
+SAVEPOINT sp1;
+```
+
