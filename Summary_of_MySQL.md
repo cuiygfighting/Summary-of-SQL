@@ -124,5 +124,9 @@ DROP column,
 
 COMMIT用来将事物处理写到数据库
 
+```
+COMMIT;
+```
+
 
 
