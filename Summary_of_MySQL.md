@@ -46,3 +46,14 @@ INSERT INTO tablename [(columns, ...)]
 SELECT columns, ... FROM tablename, ...
 [WHERE ...];
 ```
+
+### UPDATE
+
+UPDATE更新表中一行或多行
+
+```
+UPDATE tablename
+SET column=value,...
+[WHERE ...];
+```
+
