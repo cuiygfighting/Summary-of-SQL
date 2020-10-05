@@ -30,11 +30,19 @@ FROM tablename,...
 [UNION ...]
 [GROUP BY ...]
 [HAVING ...]
-[ORDER BY ...]
+[ORDER BY ...];
 ```
 
 ### INSERT
 
 INSERT给表增加一行
 
+```
+INSERT INTO tablename [(columns, ...)]
+VALUE(values, ...)
+
+//INSERT SELECT插入SELECT的结果到一个表
+INSERT INTO tablename [(columns, ...)]
+SELECT columns, ... FROM tablename, ...
+[WHERE ...];
 ```
